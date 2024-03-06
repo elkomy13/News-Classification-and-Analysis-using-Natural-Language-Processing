@@ -5,11 +5,37 @@ In a rapidly evolving digital media landscape, understanding and classifying new
 
 # Key Components:
 
-Data Collection and Preprocessing: Cleaned and preprocessed the dataset from inshorts.com, removing noise and tokenizing text for analysis.
-Topic Classification: Developed NLP classification models using techniques like logistic regression, random forests, and even explored deep learning architectures like CNNs and transformers (BERT).
-Model Training and Evaluation: Trained models on a labeled dataset, fine-tuning for improved accuracy, and evaluated performance using metrics like accuracy, precision, recall, and F1-score.
-Topic Analysis and Insights: Uncovered trends, popular topics, and patterns in news coverage, providing a deeper understanding of public discourse over time.
-Visualization and Reporting: Created visually informative representations, including topic distribution plots, word clouds, and trend graphs, to present findings.
+# Data Collection and Preprocessing:
+
+Cleaned and preprocessed the dataset from inshorts.com by performing various text preprocessing steps:
+
+1-Lowercasing: Standardized text to lowercase for uniformity.
+
+2- URL Removal: Eliminated URLs to reduce noise in the dataset.
+
+3- HTML Tags Removal: Stripped HTML tags for cleaner text.
+
+4- Abbreviation Replacement: Replaced abbreviations to enhance readability.
+
+5- Emoji Removal: Removed emojis for a more focused analysis.
+
+6- Tokenization: Tokenized the text to break it down into meaningful units.
+
+7- Stopword Removal: Eliminated common stopwords to focus on significant content.
+
+8- Punctuation Removal: Removed unnecessary punctuation marks.
+
+# Topic Classification:
+Developed NLP classification models using Bag-of-Words (BOW) pipelined with a multinomial model. Explored various techniques, including logistic regression, random forests, and delved into deep learning architectures such as CNNs and transformers (BERT).
+
+# Model Training and Evaluation:
+Trained the models on a labeled dataset, fine-tuning for improved accuracy. Evaluated performance using key metrics such as accuracy, precision, recall, and F1-score.
+
+# Topic Analysis and Insights:
+Uncovered trends, popular topics, and patterns in news coverage, providing a deeper understanding of public discourse over time.
+
+# Visualization and Reporting:
+Created visually informative representations, including topic distribution plots, word clouds, and trend graphs, to present findings
 
 # Outcomes:
 
